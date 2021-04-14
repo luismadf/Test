@@ -1,0 +1,206 @@
+/* GENERAL */
+
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+
+:root {
+  --text-color: ;
+  --light-brown: #c77752;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "EB Garamond", serif;
+  color: #333333;
+  font-size: 16px;
+}
+
+.container {
+  padding: 30px 25px;
+}
+
+.discount_bar {
+  background-color: #1f222b;
+  text-transform: uppercase;
+  padding: 15px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.mobile_menu {
+  width: 20px;
+}
+
+/* HEADER */
+
+nav {
+  height: 100px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 600px; */
+  background-image: url("/assets/images/img1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.hero img {
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+.hero img:nth-last-of-type {
+  margin-bottom: 0;
+}
+
+/* MAIN */
+
+.hero_form .hero_email_section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hero_form .hero_email_section > h3 {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.hero_form .hero_email_section > p > span {
+  margin-top: 8px;
+  display: block;
+  font-weight: bold;
+}
+
+.hero_form form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero_form form input[type="text"] {
+  display: block;
+  font-family: "EB Garamond", serif;
+  color: #333333;
+  font-size: 16px;
+  padding: 12px 20px;
+  width: 100%;
+  border: 1px solid #333333;
+  margin-bottom: 30px;
+}
+
+.hero_form form .radio {
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  color: #707070;
+  margin-bottom: 30px;
+}
+
+.hero_form form .radio label {
+  width: 100%;
+}
+
+.hero_form form input[type="submit"] {
+  display: block;
+  text-transform: uppercase;
+  font-family: "EB Garamond", serif;
+  padding: 12px 40px;
+  color: #f2f2f2;
+  background-color: var(--light-brown);
+  border: 0;
+}
+
+/* VIDEO */
+
+.video .img img {
+  width: 100%;
+}
+
+.video .video_info {
+  background-color: var(--light-brown);
+  color: #f2f2f2;
+}
+
+.video .video_info > p {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.video .video_info > a {
+  display: block;
+  text-align: center;
+  padding: 12px 0;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  background-color: #333333;
+}
+
+/* PROMO INFO */
+
+.promo_info {
+  background-image: URL("/assets/images/img2.jpg");
+  background-position: left;
+  background-size: cover;
+}
+
+.promo_info--text {
+  background-color: white;
+}
+
+.promo_info--text hr {
+  margin: 20px 0;
+}
+
+/* COMO PARTICIPAR INFO */
+
+.howto_info {
+  text-align: center;
+  background-color: #f5f4ef;
+}
+
+.howto_info .options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* SLIDER */
+
+.slider {
+  height: 400px;
+  background-color: #f7f7f7;
+}
+
+/* FOOTER */
+
+.footer_links {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  width: 100%;
+}
+
+.footer_links li {
+  width: 100%;
+  padding: 20px 0px 20px 20px;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+
+.footer_socialmedia {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+}
